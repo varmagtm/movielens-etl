@@ -98,3 +98,28 @@ git clone https://github.com/varmagtm/movielens-etl.git
 
 </dependencies>
 ```
+
+### Configuration
+
+The properties file 'movielens-app-config.properties' needs to be modified as per your configuration.
+```
+# Hibernate dialect
+hibernate.dialect=org.hibernate.dialect.MySQL5Dialect
+# hibernate.dialect=org.hibernate.dialect.OracleDialect
+# RDBMS database URL
+db.url=jdbc:mysql://localhost:3306/movielens
+# RDBMS driver name
+db.driver.classname=com.mysql.jdbc.Driver
+# RDBMS Username
+db.username=root
+# RDBMS password
+db.password=****
+# The path of SQL script file
+mysql.script.path=movielens.sql
+# Mongod host
+mongo.host=localhost
+# MongoDB port
+mongo.port=27017
+# MongoDB database name
+mongo.db.name=movielens
+```

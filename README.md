@@ -1,6 +1,6 @@
 # README #
 
-# Project Title
+# Movielens ETL
 
 This is a Java project to migrate the data from any RDBMS databse like MySQL to the MongoDB, a document oriented NoSQL database. This tool uses the best programming paradigms in the Java Programming language such as Dependency Injection(DI) using Spring, Object Relational Mapping(ORM) using Hibernate with JPA annotations. Spring-Hibernate has been used to read the data from MySQL database, and then converts this data into a suitable format as per my MongoDB document design and Spring – MongoDB driver has been used to insert the documents into the MongoDB.
 

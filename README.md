@@ -4,7 +4,7 @@ This is a Java project to migrate the data from any RDBMS databse like MySQL to 
 
 ### RDBMS Schema
 
-![Movielens RDBMS Schema]({{site.baseurl}}//movielens-mysql.jpg)
+![Movielens RDBMS Schema](https://image.ibb.co/iMKBQk/movielens_mysql.jpg)
 
 
 ### NoSQL Document JSON Schema

@@ -12,12 +12,79 @@ This is a Java project to migrate the data from any RDBMS databse like MySQL to 
 #### Movie Document Schema
 
 
-![Movie Document Schema]({{site.baseurl}}//movie-schema.jpeg)
+```javascript
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "string"
+    },
+    "release_date": {
+      "type": "string"
+    },
+    "video": {
+      "type": "string"
+    },
+    "IMDBURL": {
+      "type": "string"
+    },
+    "genres": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "rating": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "user": {
+            "type": "integer"
+          },
+          "rating": {
+            "type": "integer"
+          },
+          "timestamp": {
+            "type": "integer"
+          }
+        }
+      }
+    }
+  }
+}
+```
 
 #### User Document Schema
 
 
-![User Document Schema]({{site.baseurl}}//user-schema.jpeg)
+```javascript
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "age": {
+      "type": "integer"
+    },
+    "gender": {
+      "type": "string"
+    },
+    "occupation": {
+      "type": "string"
+    },
+    "zip_code": {
+      "type": "string"
+    }
+  }
+}
+```
 
 ### Prerequisites
 

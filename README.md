@@ -90,6 +90,9 @@ This is a Java project to migrate the data from any RDBMS databse like MySQL to 
 }
 ```
 
+#### Document Schema
+![Document Model class diagram](https://github.com/varmagtm/movielens-etl/blob/master/movielens-document-models.jpg)
+
 ### Prerequisites
 
 * Eclipse(Prefer latest version)

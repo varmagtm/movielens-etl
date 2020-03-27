@@ -6,6 +6,10 @@ This is a Java project to migrate the data from any RDBMS databse like MySQL to 
 
 ![Movielens RDBMS Schema](https://image.ibb.co/iMKBQk/movielens_mysql.jpg)
 
+### Hibernate Entities and their realtionships
+
+![Entity models and their relationships](https://github.com/varmagtm/movielens-etl/blob/master/movielens-entity-models-and-realtionships.jpg)
+
 
 ### NoSQL Document JSON Schema
 

@@ -7,7 +7,7 @@
 	<name>movielens-etl</name>
 
 	<properties>
-		<spring.framework.version>4.2.4.RELEASE</spring.framework.version>
+		<spring.framework.version>5.2.22.RELEASE</spring.framework.version>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
